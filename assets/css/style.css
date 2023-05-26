@@ -104,7 +104,8 @@ justify-content: space-between;
 }
 
 .image-box-1{ 
-   width: 50%; 
+   width: 50%; /*??? */
+   height: 50vh;
    margin: 5px;
 }
 
@@ -215,14 +216,28 @@ text-align: center;
         text-align: center;
         margin: 10px;
     }
+    h3{
+        line-height: 35px;
+    }
     .div-contacts{
         display: flex;
         justify-content: space-around;
+        flex-wrap: wrap;
         line-height: 25px;
+
     }
-h3{
-    line-height: 35px;
-}
-
-
-
+    .div-contact-form{
+        height: 100%;
+        width: 300px;
+        margin: 5px;
+    }
+    .div-contact{
+        height: 100%;
+        width: 300px;
+        margin: 5px;
+    }
+    .google-map{
+        height: 100%;
+        width: 300px;
+        margin: 5px;
+    }
